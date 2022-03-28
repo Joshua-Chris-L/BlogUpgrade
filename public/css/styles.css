@@ -38,3 +38,112 @@ html {
 	font-size: 12px;
   color: #fff;
 }
+
+.ml{
+  margin-left: auto;
+}
+
+/* Inspiration  */
+.insp{
+  background-color: #FFAFAF !important;
+  width: 100%;
+  height: 40rem;
+}
+.insp1{
+  background-color: #FBFFE2;
+  width: 100%;
+  height: 30rem;
+}
+
+.insp2{
+  background-color: #FFEBCC;
+  width: 100%;
+  height: 25rem;
+}
+
+.insp3{
+  background-color: #FF9999;
+  width: 100%;
+  height: 5rem;
+}
+
+/* physics */
+.phy{
+  background-color: #040303;
+  width: 100%;
+  height: 40rem;
+}
+.phy1{
+  background-color: #461111;
+  width: 100%;
+  height: 30rem;
+}
+
+.phy2{
+  background-color: #A13333;
+  width: 100%;
+  height: 25rem;
+}
+
+.phy3{
+  background-color: #B3541E;
+  width: 100%;
+  height: 5rem;
+}
+
+/* programming */
+.prog{
+  background-color: #402218;
+  width: 100%;
+  height: 40rem;
+}
+.prog1{
+  background-color: #865439;
+  width: 100%;
+  height: 30rem;
+}
+
+.prog2{
+  background-color: #C68B59;
+  width: 100%;
+  height: 25rem;
+}
+
+.prog3{
+  background-color: #D7B19D;
+  width: 100%;
+  height: 5rem;
+}
+
+/* literature */
+.lit{
+  background-color: #2F5D62;
+  width: 100%;
+  height: 40rem;
+}
+.lit1{
+  background-color: #5E8B7E;
+  width: 100%;
+  height: 30rem;
+}
+
+.lit2{
+  background-color: #A7C4BC;
+  width: 100%;
+  height: 25rem;
+}
+
+.lit3{
+  background-color: #DFEEEA;
+  width: 100%;
+  height: 5rem;
+}
+
+.carcont{
+position: relative;
+margin-top: -3rem;
+}
+
+.carimage{
+  margin-left: 25%;
+}

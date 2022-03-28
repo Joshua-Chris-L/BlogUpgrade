@@ -171,6 +171,7 @@ app.get("/posts/:postId", function(req, res){
 const requestedPostId = req.params.postId;
   Post.findOne({_id: requestedPostId}, function(err, post){
       res.render("post", {
+        title: post.title,
         content: post.content
       });
   });
@@ -204,6 +205,28 @@ app.get("/logout", function(req, res){
     }
   });
 });
+
+
+//Inspiration route
+app.get("/inspiration", function(req, res){
+  res.render("inspiration");
+});
+
+// literature Route
+app.get("/literature", function(req, res){
+  res.render("literature");
+});
+
+//physics Route
+app.get("/physics", function(req, res){
+  res.render("physics");
+});
+
+// Programming Route
+app.get("/Programming", function(req, res){
+  res.render("Programming");
+});
+
 
 
 app.listen(3000, function() {
